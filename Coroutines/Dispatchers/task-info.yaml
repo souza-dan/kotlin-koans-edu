@@ -3,8 +3,15 @@ files:
   - name: src/Task.kt
     visible: true
     placeholders:
-      - offset: 151
-        length: 161
-        placeholder_text: "threadLog.add(Thread.currentThread().name)\n    val result = (1..1_000_000).fold(0L) { acc, i -> acc + i } // heavy calculation\n\n    // TODO: Wrap this block with `withContext(Dispatchers.IO)`\n    // This block simulates a blocking I/O operation\n    threadLog.add(Thread.currentThread().name)\n    delay(100)"
+      - offset: 99
+        length: 117
+        placeholder_text: |-
+          // TODO: Wrap this block with `withContext(Dispatchers.Default)`
+          val result = simulateCpuIntensiveTask(threadLog)
+      - offset: 222
+        length: 102
+        placeholder_text: |-
+          // TODO: Wrap this block with `withContext(Dispatchers.IO)`
+          simulateBlockingIoOperation(threadLog)
   - name: test/Tests.kt
     visible: false
