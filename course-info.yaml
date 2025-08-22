@@ -12,6 +12,7 @@ content:
   - Properties
   - Builders
   - Generics
+  - Coroutines
 environment_settings:
   jvm_language_level: JDK_17
 additional_files:

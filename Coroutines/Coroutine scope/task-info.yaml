@@ -1,0 +1,10 @@
+type: edu
+files:
+  - name: src/Task.kt
+    visible: true
+    placeholders:
+      - offset: 89
+        length: 189
+        placeholder_text: "GlobalScope.launch {\n        delay(200)\n        items.add(\"Item B processed\")\n    }\n    GlobalScope.launch {\n        delay(100)\n        items.add(\"Item A processed\")\n    }\n    delay(50)"
+  - name: test/Tests.kt
+    visible: false
