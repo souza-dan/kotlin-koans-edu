@@ -1,14 +1,25 @@
-title: Kotlin Koans
 type: marketplace
+title: Kotlin Koans
 language: English
 summary: Kotlin Koans are a series of exercises to get you familiar with the Kotlin
   syntax
 programming_language: Kotlin
 content:
-- Introduction
-- Classes
-- Conventions
-- Collections
-- Properties
-- Builders
-- Generics
+  - Introduction
+  - Classes
+  - Conventions
+  - Collections
+  - Properties
+  - Builders
+  - Generics
+environment_settings:
+  jvm_language_level: JDK_17
+additional_files:
+  - name: util/src/koansTestUtil.kt
+  - name: README.md
+  - name: LICENSE.txt
+  - name: build.gradle
+  - name: settings.gradle
+  - name: CLAUDE.md
+  - name: ideas.kt
+yaml_version: 4
