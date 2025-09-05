@@ -22,14 +22,9 @@ additional_files:
   - name: build.gradle
   - name: settings.gradle
   - name: CLAUDE.md
-  - name: ideas.kt
   - name: .gradle/checksums/sha1-checksums.bin
     is_binary: true
   - name: .gradle/checksums/md5-checksums.bin
-    is_binary: true
-  - name: .gradle/6.1.1/executionHistory/executionHistory.bin
-    is_binary: true
-  - name: .gradle/6.1.1/fileHashes/fileHashes.bin
     is_binary: true
   - name: .gradle/buildOutputCleanup/outputFiles.bin
     is_binary: true
@@ -38,4 +33,5 @@ additional_files:
   - name: .gradle/8.14.3/fileHashes/resourceHashesCache.bin
     is_binary: true
   - name: .gradle/file-system.probe
+  - name: .kotlin/errors/errors-1755900681773.log
 yaml_version: 4
