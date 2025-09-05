@@ -1,0 +1,10 @@
+type: edu
+files:
+  - name: src/Task.kt
+    visible: true
+    placeholders:
+      - offset: 88
+        length: 55
+        placeholder_text: "// TODO: Replace GlobalScope.launch with coroutineScope"
+  - name: test/Tests.kt
+    visible: false

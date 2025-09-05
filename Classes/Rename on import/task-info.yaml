@@ -1,19 +1,19 @@
 type: edu
 files:
-- name: src/Task.kt
-  visible: true
-  placeholders:
-  - offset: 0
-    length: 73
-    placeholder_text: |-
-      // import kotlin.random.Random
-      // import java.util.Random
-  - offset: 160
-    length: 20
-    placeholder_text: // KRandom.nextInt(2) +
-  - offset: 223
-    length: 22
-    placeholder_text: // JRandom().nextInt(2) +
-- name: test/Tests.kt
-  visible: false
+  - name: src/Task.kt
+    visible: true
+    placeholders:
+      - offset: 0
+        length: 73
+        placeholder_text: |-
+          // import kotlin.random.Random
+          // import java.util.Random
+      - offset: 160
+        length: 20
+        placeholder_text: // KRandom.nextInt(2) +
+      - offset: 223
+        length: 22
+        placeholder_text: // JRandom().nextInt(2) +
+  - name: test/Tests.kt
+    visible: false
 feedback_link: https://docs.google.com/forms/d/e/1FAIpQLSeYool5qTz-p77fzn_9UKQVjO3u3Al6WjzEyW5cbjspRwtQig/viewform?usp=pp_url&entry.2103429047=Classes+/+Rename+on+Import

@@ -1,0 +1,17 @@
+type: edu
+files:
+  - name: src/Task.kt
+    visible: true
+    placeholders:
+      - offset: 99
+        length: 117
+        placeholder_text: |-
+          // TODO: Wrap this block with `withContext(Dispatchers.Default)`
+          val result = simulateCpuIntensiveTask(threadLog)
+      - offset: 222
+        length: 102
+        placeholder_text: |-
+          // TODO: Wrap this block with `withContext(Dispatchers.IO)`
+          simulateBlockingIoOperation(threadLog)
+  - name: test/Tests.kt
+    visible: false

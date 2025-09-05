@@ -1,14 +1,41 @@
-title: Kotlin Koans
 type: marketplace
+title: Kotlin Koans
 language: English
 summary: Kotlin Koans are a series of exercises to get you familiar with the Kotlin
   syntax
 programming_language: Kotlin
 content:
-- Introduction
-- Classes
-- Conventions
-- Collections
-- Properties
-- Builders
-- Generics
+  - Introduction
+  - Classes
+  - Conventions
+  - Collections
+  - Properties
+  - Builders
+  - Generics
+  - Coroutines
+environment_settings:
+  jvm_language_level: JDK_17
+additional_files:
+  - name: util/src/koansTestUtil.kt
+  - name: README.md
+  - name: LICENSE.txt
+  - name: build.gradle
+  - name: settings.gradle
+  - name: CLAUDE.md
+  - name: ideas.kt
+  - name: .gradle/checksums/sha1-checksums.bin
+    is_binary: true
+  - name: .gradle/checksums/md5-checksums.bin
+    is_binary: true
+  - name: .gradle/6.1.1/executionHistory/executionHistory.bin
+    is_binary: true
+  - name: .gradle/6.1.1/fileHashes/fileHashes.bin
+    is_binary: true
+  - name: .gradle/buildOutputCleanup/outputFiles.bin
+    is_binary: true
+  - name: .gradle/8.14.3/fileHashes/fileHashes.bin
+    is_binary: true
+  - name: .gradle/8.14.3/fileHashes/resourceHashesCache.bin
+    is_binary: true
+  - name: .gradle/file-system.probe
+yaml_version: 4

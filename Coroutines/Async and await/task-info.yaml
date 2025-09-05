@@ -1,0 +1,10 @@
+type: edu
+files:
+  - name: src/Task.kt
+    visible: true
+    placeholders:
+      - offset: 322
+        length: 89
+        placeholder_text: "val userData = fetchUserData(userId)\n    val permissions = fetchPermissions(userId)"
+  - name: test/Tests.kt
+    visible: false
